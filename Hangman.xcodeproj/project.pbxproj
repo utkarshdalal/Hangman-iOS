@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9FC6BC1818BCE100DBEF3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FC6BB1818BCE100DBEF3F /* UIKit.framework */; };
+		AC9FC6BE1818BCE100DBEF3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FC6BD1818BCE100DBEF3F /* Foundation.framework */; };
+		AC9FC6C01818BCE100DBEF3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FC6BF1818BCE100DBEF3F /* CoreGraphics.framework */; };
+		AC9FC6C61818BCE100DBEF3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6C41818BCE100DBEF3F /* InfoPlist.strings */; };
+		AC9FC6C81818BCE100DBEF3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9FC6C71818BCE100DBEF3F /* main.m */; };
+		AC9FC6CC1818BCE100DBEF3F /* HangmanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9FC6CB1818BCE100DBEF3F /* HangmanAppDelegate.m */; };
+		AC9FC6CE1818BCE100DBEF3F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6CD1818BCE100DBEF3F /* Default.png */; };
+		AC9FC6D01818BCE100DBEF3F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6CF1818BCE100DBEF3F /* Default@2x.png */; };
+		AC9FC6D21818BCE100DBEF3F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6D11818BCE100DBEF3F /* Default-568h@2x.png */; };
+		AC9FC6D51818BCE100DBEF3F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6D31818BCE100DBEF3F /* MainStoryboard_iPhone.storyboard */; };
+		AC9FC6D81818BCE100DBEF3F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6D61818BCE100DBEF3F /* MainStoryboard_iPad.storyboard */; };
+		AC9FC6DB1818BCE100DBEF3F /* HangmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9FC6DA1818BCE100DBEF3F /* HangmanViewController.m */; };
+		AC9FC6E31818BCE200DBEF3F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FC6E21818BCE200DBEF3F /* SenTestingKit.framework */; };
+		AC9FC6E41818BCE200DBEF3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FC6BB1818BCE100DBEF3F /* UIKit.framework */; };
+		AC9FC6E51818BCE200DBEF3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FC6BD1818BCE100DBEF3F /* Foundation.framework */; };
+		AC9FC6ED1818BCE200DBEF3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6EB1818BCE200DBEF3F /* InfoPlist.strings */; };
+		AC9FC6F01818BCE200DBEF3F /* HangmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9FC6EF1818BCE200DBEF3F /* HangmanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9FC6E61818BCE200DBEF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9FC6B01818BCE100DBEF3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9FC6B71818BCE100DBEF3F;
+			remoteInfo = Hangman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9FC6B81818BCE100DBEF3F /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9FC6BB1818BCE100DBEF3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC9FC6BD1818BCE100DBEF3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC9FC6BF1818BCE100DBEF3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC9FC6C31818BCE100DBEF3F /* Hangman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hangman-Info.plist"; sourceTree = "<group>"; };
+		AC9FC6C51818BCE100DBEF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC9FC6C71818BCE100DBEF3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9FC6C91818BCE100DBEF3F /* Hangman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hangman-Prefix.pch"; sourceTree = "<group>"; };
+		AC9FC6CA1818BCE100DBEF3F /* HangmanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangmanAppDelegate.h; sourceTree = "<group>"; };
+		AC9FC6CB1818BCE100DBEF3F /* HangmanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanAppDelegate.m; sourceTree = "<group>"; };
+		AC9FC6CD1818BCE100DBEF3F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AC9FC6CF1818BCE100DBEF3F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AC9FC6D11818BCE100DBEF3F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC9FC6D41818BCE100DBEF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AC9FC6D71818BCE100DBEF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AC9FC6D91818BCE100DBEF3F /* HangmanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangmanViewController.h; sourceTree = "<group>"; };
+		AC9FC6DA1818BCE100DBEF3F /* HangmanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanViewController.m; sourceTree = "<group>"; };
+		AC9FC6E11818BCE200DBEF3F /* HangmanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9FC6E21818BCE200DBEF3F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC9FC6EA1818BCE200DBEF3F /* HangmanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HangmanTests-Info.plist"; sourceTree = "<group>"; };
+		AC9FC6EC1818BCE200DBEF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC9FC6EE1818BCE200DBEF3F /* HangmanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangmanTests.h; sourceTree = "<group>"; };
+		AC9FC6EF1818BCE200DBEF3F /* HangmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9FC6B51818BCE100DBEF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9FC6BC1818BCE100DBEF3F /* UIKit.framework in Frameworks */,
+				AC9FC6BE1818BCE100DBEF3F /* Foundation.framework in Frameworks */,
+				AC9FC6C01818BCE100DBEF3F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9FC6DD1818BCE200DBEF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9FC6E31818BCE200DBEF3F /* SenTestingKit.framework in Frameworks */,
+				AC9FC6E41818BCE200DBEF3F /* UIKit.framework in Frameworks */,
+				AC9FC6E51818BCE200DBEF3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9FC6AF1818BCE100DBEF3F = {
+			isa = PBXGroup;
+			children = (
+				AC9FC6C11818BCE100DBEF3F /* Hangman */,
+				AC9FC6E81818BCE200DBEF3F /* HangmanTests */,
+				AC9FC6BA1818BCE100DBEF3F /* Frameworks */,
+				AC9FC6B91818BCE100DBEF3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9FC6B91818BCE100DBEF3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FC6B81818BCE100DBEF3F /* Hangman.app */,
+				AC9FC6E11818BCE200DBEF3F /* HangmanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9FC6BA1818BCE100DBEF3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FC6BB1818BCE100DBEF3F /* UIKit.framework */,
+				AC9FC6BD1818BCE100DBEF3F /* Foundation.framework */,
+				AC9FC6BF1818BCE100DBEF3F /* CoreGraphics.framework */,
+				AC9FC6E21818BCE200DBEF3F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC9FC6C11818BCE100DBEF3F /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FC6CA1818BCE100DBEF3F /* HangmanAppDelegate.h */,
+				AC9FC6CB1818BCE100DBEF3F /* HangmanAppDelegate.m */,
+				AC9FC6D31818BCE100DBEF3F /* MainStoryboard_iPhone.storyboard */,
+				AC9FC6D61818BCE100DBEF3F /* MainStoryboard_iPad.storyboard */,
+				AC9FC6D91818BCE100DBEF3F /* HangmanViewController.h */,
+				AC9FC6DA1818BCE100DBEF3F /* HangmanViewController.m */,
+				AC9FC6C21818BCE100DBEF3F /* Supporting Files */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		AC9FC6C21818BCE100DBEF3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FC6C31818BCE100DBEF3F /* Hangman-Info.plist */,
+				AC9FC6C41818BCE100DBEF3F /* InfoPlist.strings */,
+				AC9FC6C71818BCE100DBEF3F /* main.m */,
+				AC9FC6C91818BCE100DBEF3F /* Hangman-Prefix.pch */,
+				AC9FC6CD1818BCE100DBEF3F /* Default.png */,
+				AC9FC6CF1818BCE100DBEF3F /* Default@2x.png */,
+				AC9FC6D11818BCE100DBEF3F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9FC6E81818BCE200DBEF3F /* HangmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FC6EE1818BCE200DBEF3F /* HangmanTests.h */,
+				AC9FC6EF1818BCE200DBEF3F /* HangmanTests.m */,
+				AC9FC6E91818BCE200DBEF3F /* Supporting Files */,
+			);
+			path = HangmanTests;
+			sourceTree = "<group>";
+		};
+		AC9FC6E91818BCE200DBEF3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FC6EA1818BCE200DBEF3F /* HangmanTests-Info.plist */,
+				AC9FC6EB1818BCE200DBEF3F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9FC6B71818BCE100DBEF3F /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9FC6F31818BCE200DBEF3F /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				AC9FC6B41818BCE100DBEF3F /* Sources */,
+				AC9FC6B51818BCE100DBEF3F /* Frameworks */,
+				AC9FC6B61818BCE100DBEF3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = AC9FC6B81818BCE100DBEF3F /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9FC6E01818BCE200DBEF3F /* HangmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9FC6F61818BCE200DBEF3F /* Build configuration list for PBXNativeTarget "HangmanTests" */;
+			buildPhases = (
+				AC9FC6DC1818BCE200DBEF3F /* Sources */,
+				AC9FC6DD1818BCE200DBEF3F /* Frameworks */,
+				AC9FC6DE1818BCE200DBEF3F /* Resources */,
+				AC9FC6DF1818BCE200DBEF3F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9FC6E71818BCE200DBEF3F /* PBXTargetDependency */,
+			);
+			name = HangmanTests;
+			productName = HangmanTests;
+			productReference = AC9FC6E11818BCE200DBEF3F /* HangmanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9FC6B01818BCE100DBEF3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Hangman;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "UC Berkeley";
+			};
+			buildConfigurationList = AC9FC6B31818BCE100DBEF3F /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC9FC6AF1818BCE100DBEF3F;
+			productRefGroup = AC9FC6B91818BCE100DBEF3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9FC6B71818BCE100DBEF3F /* Hangman */,
+				AC9FC6E01818BCE200DBEF3F /* HangmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9FC6B61818BCE100DBEF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9FC6C61818BCE100DBEF3F /* InfoPlist.strings in Resources */,
+				AC9FC6CE1818BCE100DBEF3F /* Default.png in Resources */,
+				AC9FC6D01818BCE100DBEF3F /* Default@2x.png in Resources */,
+				AC9FC6D21818BCE100DBEF3F /* Default-568h@2x.png in Resources */,
+				AC9FC6D51818BCE100DBEF3F /* MainStoryboard_iPhone.storyboard in Resources */,
+				AC9FC6D81818BCE100DBEF3F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9FC6DE1818BCE200DBEF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9FC6ED1818BCE200DBEF3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC9FC6DF1818BCE200DBEF3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9FC6B41818BCE100DBEF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9FC6C81818BCE100DBEF3F /* main.m in Sources */,
+				AC9FC6CC1818BCE100DBEF3F /* HangmanAppDelegate.m in Sources */,
+				AC9FC6DB1818BCE100DBEF3F /* HangmanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9FC6DC1818BCE200DBEF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9FC6F01818BCE200DBEF3F /* HangmanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9FC6E71818BCE200DBEF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9FC6B71818BCE100DBEF3F /* Hangman */;
+			targetProxy = AC9FC6E61818BCE200DBEF3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9FC6C41818BCE100DBEF3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9FC6C51818BCE100DBEF3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC9FC6D31818BCE100DBEF3F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9FC6D41818BCE100DBEF3F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9FC6D61818BCE100DBEF3F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9FC6D71818BCE100DBEF3F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9FC6EB1818BCE200DBEF3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9FC6EC1818BCE200DBEF3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9FC6F11818BCE200DBEF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9FC6F21818BCE200DBEF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9FC6F41818BCE200DBEF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC9FC6F51818BCE200DBEF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC9FC6F71818BCE200DBEF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC9FC6F81818BCE200DBEF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9FC6B31818BCE100DBEF3F /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9FC6F11818BCE200DBEF3F /* Debug */,
+				AC9FC6F21818BCE200DBEF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9FC6F31818BCE200DBEF3F /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9FC6F41818BCE200DBEF3F /* Debug */,
+				AC9FC6F51818BCE200DBEF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC9FC6F61818BCE200DBEF3F /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9FC6F71818BCE200DBEF3F /* Debug */,
+				AC9FC6F81818BCE200DBEF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9FC6B01818BCE100DBEF3F /* Project object */;
+}
