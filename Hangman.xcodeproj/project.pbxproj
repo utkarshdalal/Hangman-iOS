@@ -24,6 +24,16 @@
 		AC9FC6E51818BCE200DBEF3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FC6BD1818BCE100DBEF3F /* Foundation.framework */; };
 		AC9FC6ED1818BCE200DBEF3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6EB1818BCE200DBEF3F /* InfoPlist.strings */; };
 		AC9FC6F01818BCE200DBEF3F /* HangmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9FC6EF1818BCE200DBEF3F /* HangmanTests.m */; };
+		AC9FC6FC1818BD2C00DBEF3F /* HangmanWords.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9FC6FA1818BD2C00DBEF3F /* HangmanWords.m */; };
+		AC9FC6FD1818BD2C00DBEF3F /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC6FB1818BD2C00DBEF3F /* words.plist */; };
+		AC9FC7001818BE2200DBEF3F /* HangmanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9FC6FF1818BE2200DBEF3F /* HangmanModel.m */; };
+		AC9FC7611818E97000DBEF3F /* hang_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC75A1818E97000DBEF3F /* hang_0.gif */; };
+		AC9FC7621818E97000DBEF3F /* hang_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC75B1818E97000DBEF3F /* hang_1.gif */; };
+		AC9FC7631818E97000DBEF3F /* hang_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC75C1818E97000DBEF3F /* hang_2.gif */; };
+		AC9FC7641818E97000DBEF3F /* hang_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC75D1818E97000DBEF3F /* hang_3.gif */; };
+		AC9FC7651818E97000DBEF3F /* hang_4.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC75E1818E97000DBEF3F /* hang_4.gif */; };
+		AC9FC7661818E97000DBEF3F /* hang_5.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC75F1818E97000DBEF3F /* hang_5.gif */; };
+		AC9FC7671818E97000DBEF3F /* hang_6.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC9FC7601818E97000DBEF3F /* hang_6.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +70,18 @@
 		AC9FC6EC1818BCE200DBEF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC9FC6EE1818BCE200DBEF3F /* HangmanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangmanTests.h; sourceTree = "<group>"; };
 		AC9FC6EF1818BCE200DBEF3F /* HangmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanTests.m; sourceTree = "<group>"; };
+		AC9FC6F91818BD2C00DBEF3F /* HangmanWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HangmanWords.h; path = ../../Words/Words/HangmanWords.h; sourceTree = "<group>"; };
+		AC9FC6FA1818BD2C00DBEF3F /* HangmanWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HangmanWords.m; path = ../../Words/Words/HangmanWords.m; sourceTree = "<group>"; };
+		AC9FC6FB1818BD2C00DBEF3F /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = words.plist; path = ../../Words/Words/words.plist; sourceTree = "<group>"; };
+		AC9FC6FE1818BE2200DBEF3F /* HangmanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanModel.h; sourceTree = "<group>"; };
+		AC9FC6FF1818BE2200DBEF3F /* HangmanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanModel.m; sourceTree = "<group>"; };
+		AC9FC75A1818E97000DBEF3F /* hang_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hang_0.gif; sourceTree = "<group>"; };
+		AC9FC75B1818E97000DBEF3F /* hang_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hang_1.gif; sourceTree = "<group>"; };
+		AC9FC75C1818E97000DBEF3F /* hang_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hang_2.gif; sourceTree = "<group>"; };
+		AC9FC75D1818E97000DBEF3F /* hang_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hang_3.gif; sourceTree = "<group>"; };
+		AC9FC75E1818E97000DBEF3F /* hang_4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hang_4.gif; sourceTree = "<group>"; };
+		AC9FC75F1818E97000DBEF3F /* hang_5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hang_5.gif; sourceTree = "<group>"; };
+		AC9FC7601818E97000DBEF3F /* hang_6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hang_6.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +111,7 @@
 		AC9FC6AF1818BCE100DBEF3F = {
 			isa = PBXGroup;
 			children = (
+				AC9FC7591818E97000DBEF3F /* hangmanImages2 */,
 				AC9FC6C11818BCE100DBEF3F /* Hangman */,
 				AC9FC6E81818BCE200DBEF3F /* HangmanTests */,
 				AC9FC6BA1818BCE100DBEF3F /* Frameworks */,
@@ -119,6 +142,9 @@
 		AC9FC6C11818BCE100DBEF3F /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				AC9FC6F91818BD2C00DBEF3F /* HangmanWords.h */,
+				AC9FC6FA1818BD2C00DBEF3F /* HangmanWords.m */,
+				AC9FC6FB1818BD2C00DBEF3F /* words.plist */,
 				AC9FC6CA1818BCE100DBEF3F /* HangmanAppDelegate.h */,
 				AC9FC6CB1818BCE100DBEF3F /* HangmanAppDelegate.m */,
 				AC9FC6D31818BCE100DBEF3F /* MainStoryboard_iPhone.storyboard */,
@@ -126,6 +152,8 @@
 				AC9FC6D91818BCE100DBEF3F /* HangmanViewController.h */,
 				AC9FC6DA1818BCE100DBEF3F /* HangmanViewController.m */,
 				AC9FC6C21818BCE100DBEF3F /* Supporting Files */,
+				AC9FC6FE1818BE2200DBEF3F /* HangmanModel.h */,
+				AC9FC6FF1818BE2200DBEF3F /* HangmanModel.m */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -161,6 +189,21 @@
 				AC9FC6EB1818BCE200DBEF3F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9FC7591818E97000DBEF3F /* hangmanImages2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FC75A1818E97000DBEF3F /* hang_0.gif */,
+				AC9FC75B1818E97000DBEF3F /* hang_1.gif */,
+				AC9FC75C1818E97000DBEF3F /* hang_2.gif */,
+				AC9FC75D1818E97000DBEF3F /* hang_3.gif */,
+				AC9FC75E1818E97000DBEF3F /* hang_4.gif */,
+				AC9FC75F1818E97000DBEF3F /* hang_5.gif */,
+				AC9FC7601818E97000DBEF3F /* hang_6.gif */,
+			);
+			name = hangmanImages2;
+			path = Hangman/hangmanImages2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +284,14 @@
 				AC9FC6D21818BCE100DBEF3F /* Default-568h@2x.png in Resources */,
 				AC9FC6D51818BCE100DBEF3F /* MainStoryboard_iPhone.storyboard in Resources */,
 				AC9FC6D81818BCE100DBEF3F /* MainStoryboard_iPad.storyboard in Resources */,
+				AC9FC6FD1818BD2C00DBEF3F /* words.plist in Resources */,
+				AC9FC7611818E97000DBEF3F /* hang_0.gif in Resources */,
+				AC9FC7621818E97000DBEF3F /* hang_1.gif in Resources */,
+				AC9FC7631818E97000DBEF3F /* hang_2.gif in Resources */,
+				AC9FC7641818E97000DBEF3F /* hang_3.gif in Resources */,
+				AC9FC7651818E97000DBEF3F /* hang_4.gif in Resources */,
+				AC9FC7661818E97000DBEF3F /* hang_5.gif in Resources */,
+				AC9FC7671818E97000DBEF3F /* hang_6.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +329,8 @@
 				AC9FC6C81818BCE100DBEF3F /* main.m in Sources */,
 				AC9FC6CC1818BCE100DBEF3F /* HangmanAppDelegate.m in Sources */,
 				AC9FC6DB1818BCE100DBEF3F /* HangmanViewController.m in Sources */,
+				AC9FC6FC1818BD2C00DBEF3F /* HangmanWords.m in Sources */,
+				AC9FC7001818BE2200DBEF3F /* HangmanModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +449,7 @@
 		AC9FC6F41818BCE200DBEF3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
 				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
@@ -407,6 +461,7 @@
 		AC9FC6F51818BCE200DBEF3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
 				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
@@ -468,6 +523,7 @@
 				AC9FC6F51818BCE200DBEF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC9FC6F61818BCE200DBEF3F /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +532,7 @@
 				AC9FC6F81818BCE200DBEF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

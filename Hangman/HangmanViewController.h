@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HangmanModel.h"
 
 @interface HangmanViewController : UIViewController
+{
+    HangmanModel *model;
+    BOOL over;
+}
+@property (retain, nonatomic) IBOutlet UIImageView *hangmanImage;
+@property (retain, nonatomic) IBOutlet UITextView *guessedLetters;
+@property (retain, nonatomic) IBOutlet UITextField *guess;
+- (IBAction)guessButtonPressed:(id)sender;
+- (IBAction)newWordButtonPressed:(id)sender;
+- (void) updateWord;
+- (void) updateImage;
+
 
 @end
